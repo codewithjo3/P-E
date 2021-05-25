@@ -51,6 +51,19 @@ class registercontroller extends Controller
           return view('report',compact('booking'));
     }
 
+    public function addadmin()
+    {
+
+            $getemail=request('email');
+            $getpass=request('pass');
+            $login=new loginmodel();
+
+            $login->Username="admin";
+            $login->email=$getemail;
+            $login->Password=$getpass;
+            $login->Usertype="admin";
+
+    }
     public function index1()
     {
         
@@ -257,7 +270,7 @@ class registercontroller extends Controller
             $signup->save();
     
             $login=new loginmodel();
-            $login->UserName=$getfname;
+            $login->Username=$getfname;
             $login->email=$getemail;
             $login->Password=$getpass;
             $login->Usertype="Customer";

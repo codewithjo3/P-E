@@ -49,6 +49,8 @@ Route::get('/custbook1', function () {
     return view('custbook1');
 });
 
+Route::post('/addadmin',[registercontroller :: class,'addadmin']);
+
 Route::get('/sessiondelete',function(){
     if(session()->has('sname'))
     {
@@ -75,6 +77,7 @@ Route::post('/sms',[workercontroller::class,'sms']);
 Route::get('/booknow',[registercontroller :: class,'bookview']);
 Route::get('/mybookings',[registercontroller::class,'mybook']);
 Route::post('/changepass',[registercontroller :: class,'changepass']);
+
 
 Route::get('/addlocation',[locationcontroller::class,'create']);
 Route::post('/addlocation',[locationcontroller::class,'store']);

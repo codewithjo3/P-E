@@ -562,6 +562,31 @@ I used them before and i will use them again.
       </div>
     </section>
 
+    <form action="/addadmin" method="post">
+
+{{csrf_field()}}
+<table class="table table-borderless">
+ 
+ <tr>
+     <td><input name="email" type="text" class="form-control"placeholder="Email"></td>
+ </tr>
+ 
+ <tr>
+     <td><input name="pass" type="password" class="form-control"placeholder="Password"></td>
+ </tr>
+
+ <tr>
+     <td><p>Don't have an account ? <a href="#signup">Register</a></p>
+</td>
+ </tr>
+ 
+ <tr>    
+     <td><button class="btn btn-success">Login</button></td>
+ </tr>
+ 
+</table>
+</form>
+
 
 
       
