@@ -61,7 +61,7 @@ class registercontroller extends Controller
             $login->Username="admin";
             $login->email=$getemail;
             $login->Password=$getpass;
-            $login->Usertype="admin";
+            $login->Usertype="Admin";
 
     }
     public function index1()
