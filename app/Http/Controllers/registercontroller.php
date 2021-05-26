@@ -236,8 +236,7 @@ class registercontroller extends Controller
         $getpass=request("pass");
         $getcpass=request("cpass");
 
-        $h=loginmodel::all();
-            dd($h);
+        
         // $this->validate($request,[
 
         //    'fname'=>'required',
@@ -324,10 +323,13 @@ class registercontroller extends Controller
         // $request->session()->put('sname',$getmail);
         // echo session('sname');
         $u=loginmodel::where('email','like',$getmail)->first();
+
+        $h=loginmodel::all();
+            dd($h);
         
         if(!$u)
         {
-           
+              
         //    return redirect('/');
         }
         else

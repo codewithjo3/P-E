@@ -18,7 +18,7 @@
     <div class="col col-12 col-sm-12 col-lg-12 col-md-12 col-xl-12 col-xxl-12">
     
     <header class="section-header">
-          <h3>ADD CATEGORY</h3>
+          <h3>ADD WORKER</h3>
           
         </header>
 
