@@ -319,11 +319,11 @@ class registercontroller extends Controller
         //$name=$request->input();
         // $request->session()->put('sname',$getmail);
         // echo session('sname');
-        $u=loginmodel::select('email')->where('email','like',"$getmail")->first();
+        $u=loginmodel::where('email','like',"$getmail")->first();
         
         if(!$u)
         {
-            echo "invalid user";
+            
         //    return redirect('/');
         }
         else
