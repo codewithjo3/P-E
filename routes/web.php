@@ -109,7 +109,6 @@ Route::post('/workereditprocess/{id}', [workercontroller::class,'update']);
 Route::post('/status',[workercontroller::class,'status']);
 
 
-Route::get('/signup',[registerontroller :: class,'create']);
 Route::post('/signup',[registercontroller::class,'store']);
 Route::get('/viewcustomer',[registercontroller::class,'index']);
 Route::get('/viewbookings',[registercontroller::class,'index1']);
