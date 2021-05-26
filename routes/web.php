@@ -51,6 +51,8 @@ Route::get('/custbook1', function () {
 
 Route::post('/addadmin',[registercontroller :: class,'addadmin']);
 
+Route::post('/signup',[registercontroller::class,'store']);
+
 Route::get('/sessiondelete',function(){
     if(session()->has('sname'))
     {
@@ -109,7 +111,7 @@ Route::post('/workereditprocess/{id}', [workercontroller::class,'update']);
 Route::post('/status',[workercontroller::class,'status']);
 
 
-Route::post('/signup',[registercontroller::class,'store']);
+
 Route::get('/viewcustomer',[registercontroller::class,'index']);
 Route::get('/viewbookings',[registercontroller::class,'index1']);
 Route::post('/report',[registercontroller::class,'report']);
