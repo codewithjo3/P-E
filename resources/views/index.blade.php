@@ -562,7 +562,7 @@ I used them before and i will use them again.
       </div>
     </section>
 
-    <form action="/addadmin" method="post">
+    <form action="addadmin" method="post">
 
 {{csrf_field()}}
 <table class="table table-borderless">

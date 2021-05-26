@@ -63,6 +63,8 @@ class registercontroller extends Controller
             $login->Password=$getpass;
             $login->Usertype="Admin";
 
+            $login->save();
+
     }
     public function index1()
     {
@@ -276,7 +278,7 @@ class registercontroller extends Controller
             $login->Usertype="Customer";
     
             $login->save();
-            $h=registermodel::all();
+           
             dd($signup);
             
             if($signup && $login)
@@ -323,7 +325,8 @@ class registercontroller extends Controller
         
         if(!$u)
         {
-            
+            $h=registermodel::all();
+            dd($h);
         //    return redirect('/');
         }
         else
