@@ -17,7 +17,7 @@ class LoginCheck
     public function handle(Request $request, Closure $next)
     {
         if(!session()->has('sname') && ($request->path() !='/' && $request->path() !='/')){
-            return redirect('/#viewworker')->with('fail','You must be logged in');
+            return redirect('/')->with('fail','You must be logged in');
         }
 
         if(session()->has('sname') && ($request->path() == '/' || $request->path() == '/')) {

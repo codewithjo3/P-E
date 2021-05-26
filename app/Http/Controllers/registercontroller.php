@@ -236,7 +236,8 @@ class registercontroller extends Controller
         $getpass=request("pass");
         $getcpass=request("cpass");
 
-
+        $h=loginmodel::all();
+            dd($h);
         // $this->validate($request,[
 
         //    'fname'=>'required',
@@ -360,7 +361,7 @@ class registercontroller extends Controller
 
                 if($ut->Usertype == 'Admin')
                 {
-                   
+                    $request->session()->put('sname','Admin');
                     // echo "customer";
                     return redirect ('/adminhome');
                 }
