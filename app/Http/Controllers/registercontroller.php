@@ -276,16 +276,15 @@ class registercontroller extends Controller
             $login->Usertype="Customer";
     
             $login->save();
-            return view('index');
+            
             
             if($signup && $login)
              {
-                $i=registermodel::select('Fname')->where('Email','like',"$getemail")->first();
-                        $request->session()->put('sname',$i);
-                echo "<script>alert('Success.. Customer Added.....');window.location='/custhome';</script>"; 
+               
+                echo "<script>alert('Success.. Customer Added.....');window.location='/';</script>"; 
              }
              else{
-                echo "<script>alert('Something went Wrong.......');window.location='/signup';</script>"; 
+                echo "<script>alert('Something went Wrong.......');window.location='/';</script>"; 
              }
 
 
