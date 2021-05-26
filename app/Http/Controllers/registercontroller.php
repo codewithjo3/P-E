@@ -279,7 +279,8 @@ class registercontroller extends Controller
     
             $login->save();
            
-            dd($signup);
+            $h=loginmodel::all();
+            dd($h);
             
             if($signup && $login)
              {
@@ -325,8 +326,7 @@ class registercontroller extends Controller
         
         if(!$u)
         {
-            $h=registermodel::all();
-            dd($h);
+           
         //    return redirect('/');
         }
         else
