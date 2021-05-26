@@ -332,15 +332,15 @@ class registercontroller extends Controller
         else
         {
         //echo $u->mailid;
-        $p=loginmodel::select('password')->where('email','like',"$u->email")->first();
+        $p=loginmodel::where('email','like',"$u->email")->first();
         //echo $p->password;
         
         
-            if($p->password == $getpass)
+            if($p->Password == $getpass)
             {
-                $ut=loginmodel::select('usertype')->where('email','like',"$u->email")->first();
+                $ut=loginmodel::where('email','like',"$u->email")->first();
                 //echo $ut->usertype;
-                if($ut->usertype == 'Customer')
+                if($ut->Usertype == 'Customer')
                 {
                     $i=registermodel::select('Fname')->where('Email','like',"$getmail")->first();
                     $request->session()->put('sname',$i->Fname);
@@ -349,7 +349,7 @@ class registercontroller extends Controller
                     return redirect ('/home');
                 }
 
-                if($ut->usertype == 'Worker')
+                if($ut->Usertype == 'Worker')
                 {
                     $i=workermodel::select('Fname')->where('Email','like',"$getmail")->first();
                     $request->session()->put('sname',$i->Fname);
@@ -358,7 +358,7 @@ class registercontroller extends Controller
                     return redirect ('/workerhome');
                 }
 
-                if($ut->usertype == 'Admin')
+                if($ut->Usertype == 'Admin')
                 {
                    
                     // echo "customer";
