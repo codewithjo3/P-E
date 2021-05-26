@@ -6,33 +6,31 @@
 
 
 
-<div class="container">
+<div class="container" style="background-image: url(assets/img/intro-carousel/whitewall2.jpg)">
 <div class="row">
 <div class="col col-12 col-sm-3 col-lg-3 col-xl-3 col-xxl-3"></div>
 <div class="col col-12 col-sm-6 col-lg-6 col-xl-6 col-xxl-6">
 
 
-<section id="worker">
+<section id="worker" >
     <div class="container">
     <div class="row">
     <div class="col col-12 col-sm-12 col-lg-12 col-md-12 col-xl-12 col-xxl-12">
     
+    <br>
+    <br>
+    <br>
     <header class="section-header">
           <h3>ADD WORKER</h3>
           
         </header>
 
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <form action="addworker1" method="post">
    
 
         {{csrf_field()}}
-    <table class="table table-borderless ">
+    <table class="table table-borderless" style="width:300px;">
     <tr>
         <td>
         <input type="text" class="form-control" placeholder="First Name" name="fname" required>
@@ -120,7 +118,7 @@ pattern=".{10}" title="10 digits required" required>
     
     <tr>
     <td>
-    <a href=""><button class="btn btn-dark" style="width:1550px">Next -></button></a>
+    <a href=""><button class="btn btn-primary" style="margin-left:-400px; width:700px;">Next</button></a>
     </td>
     </tr>
     </table>
