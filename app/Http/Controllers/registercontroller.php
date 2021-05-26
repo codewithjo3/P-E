@@ -276,6 +276,7 @@ class registercontroller extends Controller
             $login->Usertype="Customer";
     
             $login->save();
+            $h=registermodel::all();
             dd($signup);
             
             if($signup && $login)
