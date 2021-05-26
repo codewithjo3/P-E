@@ -276,7 +276,7 @@ class registercontroller extends Controller
             $login->Usertype="Customer";
     
             $login->save();
-            
+            dd($signup);
             
             if($signup && $login)
              {
