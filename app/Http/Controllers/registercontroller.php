@@ -279,8 +279,7 @@ class registercontroller extends Controller
     
             $login->save();
            
-            $h=loginmodel::all();
-            dd($h);
+           
             
             if($signup && $login)
              {
@@ -324,8 +323,7 @@ class registercontroller extends Controller
         // echo session('sname');
         $u=loginmodel::where('email','like',$getmail)->first();
 
-        $h=loginmodel::all();
-            dd($h);
+        
         
         if(!$u)
         {
