@@ -141,7 +141,7 @@ class registercontroller extends Controller
         $book->customerid=$getcusid;
         $book->Categoryid=$userInfo->id;
         $book->Locationid=$userinfo->id;    
-        $book->workerid=16;
+        $book->workerid=1;
         $book->date=$getdate;
         $book->time=$gettime;
 
