@@ -179,7 +179,7 @@ class registercontroller extends Controller
         $gettime=request('time');
         $getworker=request('worker');
         $workerinfo = workermodel::where('Fname','=', $getworker)->first();
-        $book=bookmodel::where('id','=',$getid)->update(['Workerid'=>$workerinfo->id]); 
+        $book=bookmodel::where('id','=',$getid)->update(['workerid'=>$workerinfo->id]); 
 
         $workercount=bookmodel::where('workerid','=',$workerinfo->id)->where('date','=',$getdate)->where('time','=',$gettime)->count();
         $data1 = ['LoggedUserInfo'=>registermodel::where('Fname','=', session('sname'))->first()];
