@@ -91,7 +91,7 @@ class registercontroller extends Controller
             {
                 $change=loginmodel::where('email','=',$getemail)->update(['Password'=>$getnewpass]); 
                 $data = ['LoggedUserInfo'=>registermodel::where('Fname','=', session('sname'))->first()];
-                return view('Cust')->with($data);
+                return redirect('/home');
       
             }
             else{
