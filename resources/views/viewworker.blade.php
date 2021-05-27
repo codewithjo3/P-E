@@ -319,7 +319,7 @@ $(document).ready(function(){
                         <td>{{$worker->Wtype}}</td>
                         <td>{{$worker->Fname}},{{$worker->Lname}}</td>                    
                         <td>{{$worker->Gender}}</td>
-                        <td>{{$worker->register->Hno}},{{$worker->register->Street}},{{$worker->register->City}},{{$worker->register->Pincode}}</td>
+                        <td>{{$worker->Hno}},{{$worker->Street}},{{$worker->City}},{{$worker->Pincode}}</td>
                         <td>{{$worker->Email}}</td>
                         <td>{{$worker->Mob}}</td>
                         <td>{{$worker->Idproof}}</td>
