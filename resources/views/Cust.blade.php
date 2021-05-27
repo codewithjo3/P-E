@@ -374,7 +374,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
      <br>
      <br>
      <br>
-    <section id="changepass" style="background-image: url(assets/img/intro-carousel/regwalll.png)">
+    <section id="changepass" style="background-image: url(assets/img/intro-carousel/pass.jpg)">
       <div class="container text-center" data-aos="zoom-in">
       <div class="section-header">
       <br>
@@ -383,7 +383,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
   <h3>change password</h3>
   
 </div>
-<form action="changepass" method="post">
+<form action="changepass" method="post" style="margin-left:300px">
                 {{csrf_field()}}
 <table class="table table-borderless" style="width:400px;">
 <br>
