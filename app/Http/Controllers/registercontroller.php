@@ -81,7 +81,7 @@ class registercontroller extends Controller
         $confirmpass=request('cnewpass');
         $data = registermodel::where('Fname','=', session('sname'))->first();
         $getemail=$data->Email;
-       
+         
         $login=loginmodel::where('email','=',$getemail)->first();
         $getpass=$login->Password;
         
@@ -90,7 +90,8 @@ class registercontroller extends Controller
             if($getnewpass==$confirmpass)
             {
                 $change=loginmodel::where('email','=',$getemail)->update(['Password'=>$getnewpass]); 
-                return view('Cust');
+                $data = ['LoggedUserInfo'=>registermodel::where('Fname','=', session('sname'))->first()];
+                return view('Cust')->with($data);
       
             }
             else{
