@@ -43,7 +43,7 @@
 
       <div class="row justify-content-center">
         <div class="col-xl-12 d-flex align-items-center">
-          <h1 class="logo mr-auto"><a href="index.html">Plumber & Electricians</a></h1>
+          <h1 class="logo mr-auto"><a>Plumber & Electricians</a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -266,31 +266,27 @@ $(document).ready(function(){
 
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
+
 
 <br>
 <br>
 <br>
 <br>
-<section id="viewworker" style="background-image: url(assets/img/intro-carousel/viewworker.jpg)">
+<section id="viewworker" style="background-image: url(assets/img/intro-carousel/viewworker2.jpg)">
 <div class="container-xl">
-    <div class="table-responsive">
-        <div class="table-wrapper">
-            <div class="table-title">
-                <div class="row">
-                    <div class="col-sm-5">
-					  <h2><b>Worker Details </b></h2>
 
-                      <button style=" margin-left:800px; background-color:black; padding: 20px 22px;" style="margin-left:800px;" class="btn btn-danger" id="pdf">Download</button>    
-					  
-                    </div>
-                   
-                </div>
-            </div>
-            <table class="table table-striped table-hover" id="example">
+<div class="section-header">
+      <br>     
+      <br>
+  <h3>WORKER DETAILS</h3>
+  <button  style="margin-left:1020px;" class="btn-sm btn-danger" id="pdf">Download</button> 
+</div>
+    <div class="table-responsive">
+    <div >
+        
+                        
+					         
+            <table class=" table-hover table">
             <thead>
                     <tr>
                         <th>Worker Id</th>
@@ -306,6 +302,7 @@ $(document).ready(function(){
                         <th>Category Id</th>
                         <th>Location Id</th>	                      
                         <th>Description</th>
+                        <th></th>
                         		
                         
                     </tr>
@@ -330,8 +327,8 @@ $(document).ready(function(){
                         
                       
                         <td>
-                            <a class="btn btn-dark" href={{"/editworker/".$worker->id}}>EDIT</a>
-                            <a class="btn btn-dark" href={{"/deleteworker/".$worker->id}}>DELETE</a>
+                            <a class="btn-sm btn-dark" href={{"/editworker/".$worker->id}}>EDIT</a>
+                            <a class="btn-sm btn-dark" href={{"/deleteworker/".$worker->id}}>DELETE</a>
                         </td>
                         </tr> @endforeach
 
@@ -339,11 +336,13 @@ $(document).ready(function(){
                     </tr>
                 </tbody>
             </table>
-            <div class="clearfix">
+           
              
         </div>
     </div>
 </div>     
+
+
 <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -474,13 +473,4 @@ $(document).ready(function(){
 
 </section>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
