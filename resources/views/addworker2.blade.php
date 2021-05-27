@@ -12,7 +12,7 @@
 <div class="col col-12 col-sm-6 col-lg-6 col-xl-6 col-xxl-6">
 
 
-<section id="worker">
+<section id="worker" style="background-image: url(assets/img/intro-carousel/whitewall.jpg)">
     <div class="container">
     <div class="row">
     <div class="col col-12 col-sm-12 col-lg-12 col-md-12 col-xl-12 col-xxl-12">

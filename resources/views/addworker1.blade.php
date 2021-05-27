@@ -26,7 +26,7 @@
         </header>
 
     <br>
-    <form action="addworker1" method="post">
+    <form action="addworker1" method="post" style="margin-left:90px">
    
 
         {{csrf_field()}}
@@ -75,11 +75,11 @@
     </tr>
     <tr>
         <td>
-        <input type="email" name="email" class="form-control" placeholder="Email" value="{{ old('email') }}" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+        <input type="email" name="Email" class="form-control" placeholder="Email" value="{{ old('Email') }}" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
         </td>
     </tr>
     <tr>
-    <td><span class="text-danger">@error('email'){{ $message }} @enderror</span></td>
+    <td><span class="text-danger">@error('Email'){{ $message }} @enderror</span></td>
     </tr>
     <tr>
         <td>
@@ -118,7 +118,7 @@ pattern=".{10}" title="10 digits required" required>
     
     <tr>
     <td>
-    <a href=""><button class="btn btn-primary" style="margin-left:-400px; width:700px;">Next</button></a>
+    <a href=""><button class="btn btn-primary">Next</button></a>
     </td>
     </tr>
     </table>
@@ -132,7 +132,12 @@ pattern=".{10}" title="10 digits required" required>
         </div>
         </section>
 
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 </div>
 <div class="col col-12 col-sm-6 col-lg-6 col-xl-6 col-xxl-6"></div>
