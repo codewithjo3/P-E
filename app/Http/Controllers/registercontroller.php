@@ -90,7 +90,7 @@ class registercontroller extends Controller
             if($getnewpass==$confirmpass)
             {
                 $change=loginmodel::where('email','=',$getemail)->update(['Password'=>$getnewpass]); 
-                return redirect('/Cust');
+                return view('Cust');
       
             }
             else{
