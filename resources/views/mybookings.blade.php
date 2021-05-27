@@ -39,8 +39,8 @@
                     <tr>
                         <th>Booking Id</th>
                         <th>Category</th>
-                        <th>       </th>
                         <th>Worker</th>
+                        <th>       </th>
                         <th>Location</th>
                         <th>Booking Date</th>	
                         <th>Booking Time</th>										

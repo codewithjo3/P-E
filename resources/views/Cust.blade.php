@@ -390,18 +390,18 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
       <br>
       <br>
 <tr>
-    <td>Old Password :</td>
-    <td><input type="password" class="form-control" name="oldpass" required></td>
+    <th>Old Password :</th>
+    <th><input type="password" class="form-control" name="oldpass" required></th>
 </tr>
 <tr>
-    <td>New Password :</td>
-    <td><input type="password" class="form-control" name="newpass"  
-  title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required></td>
+    <th>New Password :</th>
+    <th><input type="password" class="form-control" name="newpass"  
+  title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required></th>
 </tr>
 <tr>
-    <td>Confirm New Password :</td>
-    <td><input type="password" class="form-control" name="cnewpass"  
-  title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required></td>
+    <th>Confirm New Password :</th>
+    <th><input type="password" class="form-control" name="cnewpass"  
+  title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required></th>
 </tr>
 <tr>
     <td></td>

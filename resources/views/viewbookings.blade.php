@@ -274,7 +274,7 @@ $(document).ready(function(){
 <br>
 
 
-<section id="bookings">
+<section id="bookings" style="background-image: url(assets/img/intro-carousel/viewworker.jpg)">
 <div class="container-xl">
     <div class="table-responsive">
         <div class="table-wrapper">

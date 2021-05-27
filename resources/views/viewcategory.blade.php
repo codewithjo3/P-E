@@ -273,7 +273,7 @@ $(document).ready(function(){
 <br>
 
 
-<section id="viewcat">
+<section id="viewcat" style="background-image: url(assets/img/intro-carousel/viewworker.jpg)">
 <div class="container-xl">
     <div class="table-responsive">
         <div class="table-wrapper">

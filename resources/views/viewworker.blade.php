@@ -275,7 +275,7 @@ $(document).ready(function(){
 <br>
 <br>
 <br>
-<section id="viewworker">
+<section id="viewworker" style="background-image: url(assets/img/intro-carousel/viewworker.jpg)">
 <div class="container-xl">
     <div class="table-responsive">
         <div class="table-wrapper">
@@ -293,24 +293,20 @@ $(document).ready(function(){
             <table class="table table-striped table-hover" id="example">
             <thead>
                     <tr>
-                       <th>Worker Id</th>
-                        <th>First Name</th>	
-                        <th>Last Name</th>
+                        <th>Worker Id</th>
+                        <th></th>
+                        <th>Worker type</th>
+                        <th>Name</th>	     
                         <th>Gender</th>
-                        <th>House No</th>
-                        <th>Street</th>
-                        <th>City</th>
-                        <th>Pincode</th>
+                        <th>Address</th>                       
                         <th>Email</th>	
                         <th>Contact</th>
                         <th>Id proof</th>
-                        <th>Id Proof no</th>	
-                        <th>Worker type</th>		
+                        <th>Id Proof no</th>	                       		
                         <th>Category Id</th>
-                        <th>Location Id</th>	
-                        <th>Photo</th>
+                        <th>Location Id</th>	                      
                         <th>Description</th>
-                        <th>Status</th>		
+                        		
                         
                     </tr>
                 </thead>
@@ -319,23 +315,19 @@ $(document).ready(function(){
                     <tr>
                    
                         <td>{{$worker->id}}</td>
-                        <td>{{$worker->Fname}}</td>
-                        <td>{{$worker->Lname}}</td>
+                        <td><img width="150" height="100" class="avatar" src="{{ URL::asset('assets/worker_img/'.$worker->Filepath) }}"></td>
+                        <td>{{$worker->Wtype}}</td>
+                        <td>{{$worker->Fname}},{{$worker->Lname}}</td>                    
                         <td>{{$worker->Gender}}</td>
-                        <td>{{$worker->Hno}}</td>
-                        <td>{{$worker->Street}}</td>
-                        <td>{{$worker->City}}</td>
-                        <td>{{$worker->Pincode}}</td>
+                        <td>{{$worker->register->Hno}},{{$worker->register->Street}},{{$worker->register->City}},{{$worker->register->Pincode}}</td>
                         <td>{{$worker->Email}}</td>
                         <td>{{$worker->Mob}}</td>
                         <td>{{$worker->Idproof}}</td>
-                        <td>{{$worker->Idproofno}}</td>
-                        <td>{{$worker->Wtype}}</td>
+                        <td>{{$worker->Idproofno}}</td>                      
                         <td>{{$worker->Categoryid}}</td>
-                        <td>{{$worker->Locationid}}</td>
-                        <td><img width="150" height="100" class="avatar" src="{{ URL::asset('assets/worker_img/'.$worker->Filepath) }}"></td>
+                        <td>{{$worker->Locationid}}</td>                 
                         <td>{{$worker->Description}}</td>
-                        <td>{{$worker->Status}}</td>
+                        
                       
                         <td>
                             <a class="btn btn-dark" href={{"/editworker/".$worker->id}}>EDIT</a>
