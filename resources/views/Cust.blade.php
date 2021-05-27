@@ -374,7 +374,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
      <br>
      <br>
      <br>
-    <section id="changepass" style="background-image: url(assets/img/intro-carousel/pass.jpeg)">
+    <section id="changepass" style="background-image: url(assets/img/intro-carousel/pass.jpg)">
       <div class="container text-center" data-aos="zoom-in">
       <div class="section-header">
       <br>
