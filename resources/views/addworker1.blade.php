@@ -84,7 +84,7 @@
     <tr>
         <td>
         <input type="tel" class="form-control"placeholder="Mobile No" name="mob"
-pattern=".{10}" title="10 digits required" required>
+pattern=".{12}" title="10 digits required" required>
         </td>
     </tr>
     
