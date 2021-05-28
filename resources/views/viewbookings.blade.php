@@ -301,7 +301,7 @@ $(document).ready(function(){
       <br>     
       <br>
   <h3>BOOKING DETAILS</h3>
-  <button style="margin-left:1020px;" class=" btn btn-sm btn-danger" id="pdf">Download</button> 
+  <button style="margin-left:1020px;" class="btn btn-sm btn-danger" id="pdf">Download</button> 
 
 
   
@@ -309,7 +309,7 @@ $(document).ready(function(){
     <div class="table-responsive">
         <div>
                 
-            <table class="table-hover table" >
+            <table class="table-hover table" id="example" >
             <thead>
                     <tr>
                         <th>id</th>

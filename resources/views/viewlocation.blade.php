@@ -308,7 +308,7 @@ $(document).ready(function(){
     <div class="table-responsive">
         <div>
             
-            <table class="table-hover table">
+            <table class="table-hover table" id="example">
                 <thead>
                     <tr>
                         <th>Id</th>

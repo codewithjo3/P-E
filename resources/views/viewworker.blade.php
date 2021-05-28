@@ -310,7 +310,7 @@ $(document).ready(function(){
         
                         
 					         
-            <table class=" table-hover table">
+            <table class=" table-hover table" id="example">
             <thead>
                     <tr>
                         <th>Id</th>
