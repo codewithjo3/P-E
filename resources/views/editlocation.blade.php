@@ -36,7 +36,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-transparent">
+  <header id="header" class="fixed-top header">
     <div class="container-fluid">
 
       <div class="row justify-content-center">
@@ -107,8 +107,12 @@
 <br>
 
 
-<section id="addlocation" style="background-image: url(../assets/img/intro-carousel/viewloc2.jpg)">
+<section id="addlocation" style="background-image: url(../assets/img/intro-carousel/viewloc.jpg)">
       <div class="container" data-aos="fade-up">
+      <br>
+<br>
+<br>
+<br>
 
         <header class="section-header wow fadeInUp">
           <h3>Edit Location</h3>
@@ -135,6 +139,15 @@
 
       </div>
       <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>

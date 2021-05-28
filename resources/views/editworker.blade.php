@@ -84,7 +84,7 @@
                   <li><a href="/addworker#worker">Add Worker</a></li>
                   <li><a href="/adminhome#addlocation">Add Location</a></li>
                   <li><a href="/adminhome#addcategory">Add Category</a></li>
-                  <li><a href="#">Drop Down 5</a></li>
+                  
                 </ul>
               </li>
 
@@ -99,17 +99,8 @@
 
   </header><!-- End Header -->
 
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
 
-<section id="editworker" style="background-image: url(../assets/img/intro-carousel/viewworker3.jpg)" >
+<section id="editworker" style="background-image: url(../assets/img/intro-carousel/viewworker2.jpg)" >
       <div class="container" data-aos="fade-up" >
 
         <header class="section-header">
