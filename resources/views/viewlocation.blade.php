@@ -319,7 +319,7 @@ $(document).ready(function(){
                 </thead>
                 <tbody>
                     <tr>
-                        <td>@foreach($locationview as $location)
+                        <td>@foreach($location as $location)
                     <tr>
                    
                         <td>{{$location->id}}</td>

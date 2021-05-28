@@ -86,10 +86,10 @@ class locationcontroller extends Controller
      */
     public function edit($id)
     {
-        $locationview=locationmodel::find($id);
-        $location=locationmodel::all();
+        $location=locationmodel::find($id);
+        
 
-        return view('editlocation',compact('locationview','location'));
+        return view('editlocation',compact('location'));
     }
 
     /**
