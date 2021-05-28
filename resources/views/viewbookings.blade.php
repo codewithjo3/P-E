@@ -271,13 +271,13 @@ $(document).ready(function(){
 
 
 
-<section id="bookings" >
+<section id="bookings" style="background-image: url(assets/img/intro-carousel/viewbook.jpg)" >
 <div class="container-xl">
 <div class="section-header">
       <br>     
       <br>
   <h3>BOOKING DETAILS</h3>
-  <button style="margin-left:1020px;" class="btn-sm btn-danger" id="pdf">Download</button> 
+  <button style="margin-left:1020px;" class=" btn btn-sm btn-danger" id="pdf">Download</button> 
 
 
   
@@ -322,6 +322,10 @@ $(document).ready(function(){
     </div>
 </div>   
 
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>

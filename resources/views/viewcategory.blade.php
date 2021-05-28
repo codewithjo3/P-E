@@ -271,7 +271,7 @@ $(document).ready(function(){
 
 
 
-<section id="viewcat">
+<section id="viewcat" style="background-image: url(assets/img/intro-carousel/viewcat.jpg)" >
 <div class="container-xl">
 
 <div class="section-header">

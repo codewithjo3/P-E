@@ -91,12 +91,42 @@
 
         <div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item active" style="background-image: url(assets/img/intro-carousel/adminwall.png)">
+          <div class="carousel-item active" style="background-image: url(assets/img/intro-carousel/adminhome2.jpg)">
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">Welcome Admin </h2>
                 
-                <p class="animate__animated animate__fadeInUp"></p>
+                
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminhome3.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Deep Work Inside</h2>
+                
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminhome3.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">We are professionals</h2>
+                
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminwall.png)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">We guarantee 100% perfection</h2>
+                
                 
               </div>
             </div>
@@ -105,18 +135,20 @@
           <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminwall2.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Deep Work Inside</h2>
-                <p class="animate__animated animate__fadeInUp">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
+                <h2 class="animate__animated animate__fadeInDown">Your satisfaction is our happiness</h2>
                 
+               
               </div>
             </div>
           </div>
 
-          
+        </div>
 
-         
-
-          
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+       
 
         
       </div>
