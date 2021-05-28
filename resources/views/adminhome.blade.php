@@ -102,7 +102,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
     <br>
 
         <header class="section-header wow fadeInUp">
-          <h3>Add Location</h3>
+          <h3 style="color:white;">Add Location</h3>
          
         </header>
         <br>
@@ -112,7 +112,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
         <form action="/addlocation" method="post">
 
        {{csrf_field()}}
-<table class="table table-borderless" style="width:400px; margin-left:400px;">
+<table class="table table-borderless" style="width:400px; margin-left:350px;">
  
  <tr>
      <td><input name="location" type="text" class="form-control" placeholder="Add location"></td>
@@ -130,6 +130,9 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
 
       </div>
       <br>
+    <br>
+    <br>
+    <br>
     <br>
     <br>
     <br>
@@ -176,7 +179,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
         <form action="/addcategory" method="post">
 
 {{csrf_field()}}
-<table class="table table-borderless" style="width:400px; margin-left:400px;">
+<table class="table table-borderless" style="width:300px; margin-left:350px;">
  
  <tr>
      <td><input name="category" type="text" class="form-control"placeholder="category name"></td>
@@ -197,6 +200,17 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
 </form>
 
       </div>
+
+      <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     </section>
     
     <br>
