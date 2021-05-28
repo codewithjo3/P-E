@@ -297,7 +297,7 @@ $(document).ready(function(){
 <section id="location" style="background-image: url(assets/img/intro-carousel/viewloc2.jpg)"  >
 <div class="container-xl">
 
-<div class="section-header">
+<div class="section-header"  style="background-image: url(assets/img/intro-carousel/viewloc2.jpg)">
       <br>     
       <br>
   <h3>LOCATION DETAILS</h3>

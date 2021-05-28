@@ -62,10 +62,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         
 
               <li class="active"><a href="/">Home</a></li>
               
@@ -112,7 +109,7 @@
   <br>
   <br>
 
-<section id="editworker" style="background-image: url(assets/img/intro-carousel/viewworker2.jpg)" >
+<section id="editworker" style="background-image: url(assets/img/intro-carousel/viewworker3.jpg)" >
       <div class="container" data-aos="fade-up" >
 
         <header class="section-header">
@@ -120,10 +117,10 @@
           
         </header>
 
-        <form action="/workereditprocess/{{$workerview->id}}" method="post" enctype="multipart/form-data" >
+        <form action="/workereditprocess/{{$workerview->id}}" method="post" enctype="multipart/form-data"  >
 
 {{csrf_field()}}
-<table class="table table-borderless" style="width:500px; margin-left:100px;">
+<table class="table table-borderless" style="width:500px; margin-left:300px;" >
  
 <tr>
         <td>

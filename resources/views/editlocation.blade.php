@@ -61,10 +61,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           
 
               <li class="active"><a href="/">Home</a></li>
               
@@ -101,92 +98,16 @@
 
   </header><!-- End Header -->
 
-  <section id="intro">
-    <div class="intro-container">
-      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+  
 
-        <ol class="carousel-indicators"></ol>
 
-        <div class="carousel-inner" role="listbox">
-
-          <div class="carousel-item active" style="background-image: url(../assets/img/intro-carousel/1.jpg)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Welcome Admin </h2>
-                <h3 class="animate__animated animate__fadeInUp">'Nobody does it better'</h3>
-                <p class="animate__animated animate__fadeInUp"></p>
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item" style="background-image: url(../assets/img/intro-carousel/2.jpg)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">We are here to help you</h2>
-                <p class="animate__animated animate__fadeInUp">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item" style="background-image: url(../assets/img/intro-carousel/3.jpg)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">We are professionals</h2>
-                <p class="animate__animated animate__fadeInUp">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item" style="background-image: url(../assets/img/intro-carousel/4.jpg)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">We guarantee 100% perfection</h2>
-                <p class="animate__animated animate__fadeInUp">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item" style="background-image: url(../assets/img/intro-carousel/5.jpg)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Magnam aliquam quaerat</h2>
-                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-
-      </div>
-    </div>
-  </section>
-
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
 <br>
 
 
-<section id="addlocation">
+<section id="addlocation" >
       <div class="container" data-aos="fade-up">
 
         <header class="section-header wow fadeInUp">
@@ -194,13 +115,13 @@
          
         </header>
 
-        <form action="/addlocation" method="post">
+        <form action="/locationeditprocess/{{ $location->id }}" method="post">
 
        {{csrf_field()}}
-<table class="table table-borderless">
+<table class="table table-borderless"  style="width:500px; margin-left:300px;">
  
  <tr>
-     <td><input name="location" type="text" class="form-control" ></td>
+     <td><input name="location" type="text" class="form-control" value="{{$location->Location}}" ></td>
  </tr>
  
  
@@ -213,6 +134,14 @@
 </form>
 
       </div>
+      <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
     </section>
 
     <footer id="footer">
