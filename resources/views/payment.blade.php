@@ -105,7 +105,7 @@ input {
 
         <div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item active" style="background-image: url(assets/img/intro-carousel/1.jpg)">
+          <div class="carousel-item active" style="background-image: url(assets/img/intro-carousel/payment.jpg)">
             
           <div class="container-fluid">
     <div class="row d-flex justify-content-center">
@@ -122,7 +122,7 @@ input {
                 {{csrf_field()}}
                    <input type="hidden" name="id" value="{{$getid}}">
                     <div class="form-group mb-0">
-                        <p style="margin-left:0px"class="text-warning mb-0">Card Number</p> <input type="text" name="card-num"  size="17" id="cno" minlength="19" maxlength="19"> <img src="https://img.icons8.com/color/48/000000/visa.png" width="64px" height="60px" />
+                        <p style="margin-left:0px"class="text-warning mb-0">Card Number</p> <input type="text" name="card-num"  size="17" id="cno" minlength="10" maxlength="10"> <img src="https://img.icons8.com/color/48/000000/visa.png" width="64px" height="60px" />
                     </div>
                     <div class="form-group">
                         <p  style="margin-left:0px" class="text-warning mb-0">Cardholder's Name</p> <input type="text" name="name"  size="17">

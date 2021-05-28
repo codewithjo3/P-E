@@ -229,7 +229,7 @@ body {
 <body>
 
 <!-- ======= Intro Section ======= -->
-<section id="intro">
+<section id="intro" >
     <div class="intro-container">
       <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
@@ -237,7 +237,7 @@ body {
 
         <div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item active" style="background-image: url(assets/img/intro-carousel/1.jpg)">
+          <div class="carousel-item active" style="background-image: url(assets/img/intro-carousel/viewloc.jpg)">
           <br>
           <br>
           <br>

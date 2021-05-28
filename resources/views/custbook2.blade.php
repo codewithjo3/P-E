@@ -234,7 +234,7 @@ body {
 
         <div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item active" style="background-image: url(assets/img/intro-carousel/1.jpg)">
+          <div class="carousel-item active" style="background-image: url(assets/img/intro-carousel/viewworker2.jpg)">
           <br>
           <br>
           
