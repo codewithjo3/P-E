@@ -112,7 +112,7 @@ input {
         <div class="col-sm-12">
            
            
-            <div class="card mx-auto">
+            <div class="card mx-auto" style="background:transperant;">
                    <h3><img style="margin-left:-30px" src="assets/img/favicon.png"  width="140" height="150"></h3>
                <center><p style="color:Grey;"class="heading">PAYMENT DETAILS</p></center>
                <br>

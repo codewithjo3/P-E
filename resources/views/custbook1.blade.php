@@ -251,7 +251,7 @@ body {
     <div class="section-center">
         <div class="container">
             <div class="row">
-                <div class="booking-form" >
+                <div class="booking-form"  style="background:transperant;">
                     <div class="form-header">
                     
                         <h3><img src="assets/img/favicon.png"  width="150" height="160"></h3>
