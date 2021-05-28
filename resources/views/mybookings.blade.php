@@ -2,13 +2,15 @@
 
 @section('content')
 
+
+
 <br>
           <br>
           <br>
           <br>
           <br>
 
-          <section id="mybookings" style="background-image: url(assets/img/intro-carousel/whitewall.jpg)">
+          <section id="mybookings" style="background-image: url(assets/img/intro-carousel/mybook.jpg)">
           <br>
           <br>
           <header class="section-header">
@@ -18,23 +20,8 @@
         </header>
     <div class="container-xl">
     <div class="table-responsive">
-        <div class="table-wrapper">
-         
-            <div class="table-filter">
-                <div class="row">
-                    <div class="col-sm-3">
-                        
-                    </div>
-                    <div class="col-sm-9">
-                        
-                        </div>
-                        
-                       
-                       
-                    </div>
-                </div>
-            </div>
-            <table class="table table-striped table-hover" style="background-image: url(assets/img/intro-carousel/whitewall2.jpg)">
+       
+            <table class="table  table-hover" >
                 <thead>
                     <tr>
                         <th>Booking Id</th>
@@ -55,7 +42,7 @@
                    
                         <td>{{$book->id}}</td> 
                         <td>{{$book->category->Category}}</td>
-                        <td><img width="150" height="100" class="avatar" src="{{ URL::asset('assets/worker_img/'.$book->worker->Filepath) }}"></td> 
+                        <td><img width="100" height="100" class="avatar" src="{{ URL::asset('assets/worker_img/'.$book->worker->Filepath) }}"></td> 
                         <td>{{$book->worker->Fname}}</td> 
                         <td>{{$book->location->Location}}</td>
                         <td>{{$book->date}}</td> 

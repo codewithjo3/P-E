@@ -98,11 +98,22 @@
       </div>
 
   </header><!-- End Header -->
+  <br>
 
+<br>
+<br>
+<br>
+
+<br>
 
 <section id="editworker" style="background-image: url(../assets/img/intro-carousel/viewworker2.jpg)" >
       <div class="container" data-aos="fade-up" >
-
+        
+      <br>
+<br>
+<br>
+<br>
+<br>
         <header class="section-header">
           <h3>Edit WORKER</h3>
           

@@ -152,7 +152,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
    
        
         
-    <section id="viewworkers" style="background-image: url(assets/img/intro-carousel/whitewall.jpg)">
+    <section id="viewworkers" style="background-image: url(assets/img/intro-carousel/ourworker.jpg)">
     <br>
     <br>
     <header class="section-header">
@@ -196,38 +196,13 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
   <!-- description-->
   <div class="profile-bio">
 
-    <p  style="color:black;">Hello there!</p>
+    
     <p  style="color:black;">{{$worker->Description}}</p>
 
   </div>
 
   <!-- some social links to show off -->
-  <ul class="profile-social-links">
-
-    <!-- twitter - el clásico  -->
-    <li>
-      <a href="https://twitter.com/tutsplus">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg">
-      </a>
-    </li>
-
-    <!-- envato – use this one to link to your marketplace profile -->
-    <li>
-      <a href="https://envato.com">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-envato.svg">
-      </a>
-    </li>
-
-    <!-- codepen - your codepen profile-->
-    <li>
-      <a href="https://codepen.io/tutsplus">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-codepen.svg">
-      </a>
-    </li>
-
-    <!-- add or remove social profiles as you see fit -->
-
-  </ul>
+  
 
 </aside>
 
@@ -256,20 +231,19 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
 
     
 
-    <section id="myprofile" style="background-image: url(assets/img/intro-carousel/regwall2.png)" >
+    <section id="myprofile" style="background-image: url(assets/img/intro-carousel/mypro3.jpg)" >
 
     
     
-    <div class="container emp-profile" style="background-image: url(assets/img/intro-carousel/regwalll.png)" >
+    <div class="container emp-profile" style="background-image: url(assets/img/intro-carousel/mypro.jpg)" >
          
          
-         <header class="section-header">
+         <header class="section-header"  style="margin-right:550px">
     
           <h3>My Profile</h3>
          
         </header>
-            <br>
-            <br>
+            
    
             <form method="post" >
                 <div class="row"  >
@@ -383,29 +357,29 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
   <h3>change password</h3>
   
 </div>
-<form action="changepass" method="post" style="margin-left:300px">
+<form action="changepass" method="post" style="margin-left:330px">
                 {{csrf_field()}}
 <table class="table table-borderless" style="width:400px;">
 <br>
       <br>
       <br>
 <tr>
-    <th>Old Password :</th>
+    <th>Old Password </th>
     <th><input type="password" class="form-control" name="oldpass" required></th>
 </tr>
 <tr>
-    <th>New Password :</th>
+    <th>New Password </th>
     <th><input type="password" class="form-control" name="newpass"  
   title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required></th>
 </tr>
 <tr>
-    <th>Confirm New Password :</th>
+    <th>Confirm New Password </th>
     <th><input type="password" class="form-control" name="cnewpass"  
   title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required></th>
 </tr>
 <tr>
     <td></td>
-    <td><button class="btn btn-dark">Confirm</button></td>
+    <td><button class="btn btn-dark" >Confirm</button></td>
 </tr>
 
 </table>
@@ -429,7 +403,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
     <!-- ======= change passowrd Section ======= -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="section-bg" style="background-image: url(assets/img/intro-carousel/whitewall2.jpg)">
+    <section id="portfolio" class="section-bg" style="background-image: url(assets/img/intro-carousel/viewworker3.jpg)">
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
@@ -584,7 +558,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
    
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="section-bg" style="background-image: url(assets/img/intro-carousel/whitewall2.jpg)">
+    <section id="testimonials" class="section-bg" >
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">

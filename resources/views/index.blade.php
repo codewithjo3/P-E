@@ -196,11 +196,11 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
     <!-- ======= services Section ======= -->
    <!-- End services Section -->
 
-   <section id="portfolio" class="section-bg" style="background-image: url(assets/img/intro-carousel/blackwall.jpg)">
+   <section id="portfolio" class="section-bg" style="background-image: url(assets/img/intro-carousel/viewworker3.jpg)">
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h3 style="color:white;" class="section-title">Services</h3>
+          <h3  class="section-title">Services</h3>
         </header>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -220,8 +220,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
           <div class="portfolio-wrap">
             <figure>
               <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              
             </figure>
 
             <div class="portfolio-info">
@@ -235,8 +234,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
           <div class="portfolio-wrap">
             <figure>
               <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/web3.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Web 3"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              
             </figure>
 
             <div class="portfolio-info">
@@ -250,8 +248,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
           <div class="portfolio-wrap">
             <figure>
               <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/app2.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="App 2"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              
             </figure>
 
             <div class="portfolio-info">
@@ -265,8 +262,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
           <div class="portfolio-wrap">
             <figure>
               <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/card2.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Card 2"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              
             </figure>
 
             <div class="portfolio-info">
@@ -280,8 +276,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
           <div class="portfolio-wrap">
             <figure>
               <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/web2.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Web 2"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+             
             </figure>
 
             <div class="portfolio-info">
@@ -295,8 +290,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
           <div class="portfolio-wrap">
             <figure>
               <img src="assets/img/portfolio/seawage.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/seawage.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="App 3"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              
             </figure>
 
             <div class="portfolio-info">
@@ -310,8 +304,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
           <div class="portfolio-wrap">
             <figure>
               <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/card1.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Card 1"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              
             </figure>
 
             <div class="portfolio-info">
@@ -325,8 +318,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
           <div class="portfolio-wrap">
             <figure>
               <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/card3.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Card 3"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              
             </figure>
 
             <div class="portfolio-info">
@@ -340,8 +332,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
           <div class="portfolio-wrap">
             <figure>
               <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/web1.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Web 1"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              
             </figure>
 
             <div class="portfolio-info">
@@ -562,31 +553,7 @@ I used them before and i will use them again.
       </div>
     </section>
 
-    <form action="addadmin" method="post">
-
-{{csrf_field()}}
-<table class="table table-borderless">
- 
- <tr>
-     <td><input name="email" type="text" class="form-control"placeholder="Email"></td>
- </tr>
- 
- <tr>
-     <td><input name="pass" type="password" class="form-control"placeholder="Password"></td>
- </tr>
-
- <tr>
-     <td><p>Don't have an account ? <a href="#signup">Register</a></p>
-</td>
- </tr>
- 
- <tr>    
-     <td><button class="btn btn-success">Login</button></td>
- </tr>
- 
-</table>
-</form>
-
+   
 
 
       
