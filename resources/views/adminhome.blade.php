@@ -99,6 +99,14 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
         </div>
 
       </div>
+      <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     </section><!-- End About Us Section -->
 
     <!-- ======= Services Section ======= -->
@@ -114,6 +122,11 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
     <br>
     <section id="addlocation" style="background-image: url(assets/img/intro-carousel/viewloc.jpg)">
       <div class="container" data-aos="fade-up">
+        
+    <br>
+    <br>
+    <br>
+    <br>
 
         <header class="section-header wow fadeInUp">
           <h3>Add Location</h3>
@@ -121,9 +134,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
         </header>
         <br>
     <br>
-    <br>
-    <br>
-    <br>
+    
 
         <form action="/addlocation" method="post">
 
@@ -145,10 +156,21 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+      <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <!-- ======= Call To Action Section ======= -->
-    <!-- End Call To Action Section -->
+    </section>
+
+    
+    <!-- End loc Section -->
+
+ 
 
     <!-- ======= add category Section ======= -->
 
@@ -164,6 +186,11 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
 
     <section id="addcategory" style="background-image: url(assets/img/intro-carousel/viewcat.jpg)" >
       <div class="container" data-aos="fade-up" >
+       
+      <br>
+    <br>
+    <br>
+    <br>
 
         <header class="section-header">
           <h3>ADD CATEGORY</h3>
@@ -171,9 +198,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
         </header>
         <br>
     <br>
-    <br>
-    <br>
-    <br>
+    
 
         <form action="/addcategory" method="post">
 

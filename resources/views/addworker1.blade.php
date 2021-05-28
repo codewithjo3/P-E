@@ -21,7 +21,7 @@
     <br>
     <br>
     <header class="section-header">
-          <h3>ADD WORKER</h3>
+          <h3 style="color:white;">ADD WORKER</h3>
           
         </header>
 
