@@ -16,9 +16,9 @@ class locationcontroller extends Controller
      */
     public function index()
     {
-        $locationview=locationmodel::all();
+        $location=locationmodel::all();
 
-        return view('viewlocation',compact('locationview'));
+        return view('viewlocation',compact('location'));
     }
 
     /**
