@@ -314,7 +314,7 @@ $(document).ready(function(){
                         <td>{{$worker->id}}</td>
                         <td><img width="150" height="100" class="avatar" src="{{ URL::asset('assets/worker_img/'.$worker->Filepath) }}"></td>
                         <td>{{$worker->Wtype}}</td>
-                        <td>{{$worker->Fname}},{{$worker->Lname}}</td>                    
+                        <td>{{$worker->Fname}} {{$worker->Lname}}</td>                    
                         <td>{{$worker->Gender}}</td>
                         <td>{{$worker->Hno}},{{$worker->Street}},{{$worker->City}},{{$worker->Pincode}}</td>
                         <td>{{$worker->Email}}</td>

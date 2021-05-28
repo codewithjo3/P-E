@@ -277,7 +277,7 @@ $(document).ready(function(){
       <br>     
       <br>
   <h3>BOOKING DETAILS</h3>
-  <button  style="margin-left:1020px;" class="btn-sm btn-danger" id="pdf">Download</button> 
+  <button style="margin-left:1020px;" class="btn-sm btn-danger" id="pdf">Download</button> 
 
 
   
@@ -320,7 +320,16 @@ $(document).ready(function(){
              
         </div>
     </div>
-</div>     
+</div>   
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <footer id="footer">
     <div class="footer-top">
