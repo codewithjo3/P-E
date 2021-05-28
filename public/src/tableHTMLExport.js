@@ -190,7 +190,7 @@ THE SOFTWARE.*/
                     console.log(jsonExportArray);
                 }
 
-                var doc = new jsPDF('p', 'pt');
+                var doc = new jsPDF('l', 'pt');
                 doc.autoTable(jsonExportArray.header, jsonExportArray.data);
                 doc.save(options.filename);
 
