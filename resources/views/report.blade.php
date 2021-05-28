@@ -272,7 +272,7 @@ $(document).ready(function(){
 
 
 
-<section id="bookings">
+<section id="bookings" style="background-image: url(assets/img/intro-carousel/viewreport.jpg)">
 <div class="container-xl">
 
 <div class="section-header">

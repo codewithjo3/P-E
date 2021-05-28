@@ -119,17 +119,17 @@
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminhome3.jpg)">
+          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminwall.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 style="color:grey;" class="animate__animated animate__fadeInDown">Highly confidential</h2>
+                <h2 style="color:grey;" class="animate__animated animate__fadeInDown">Highly Confidential</h2>
                 
                 
               </div>
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminhome.jpg)">
+          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminhome3.jpg)">
             <div class="carousel-container">
               <div class="container">
                 <h2 style="color:grey;" class="animate__animated animate__fadeInDown">Deep Work Inside</h2>
@@ -139,20 +139,20 @@
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminwall.png)">
+          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminwall2.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 style="color:grey;" class="animate__animated animate__fadeInDown">Data is money</h2>
+                <h2 style="color:grey;" class="animate__animated animate__fadeInDown">Data is Money</h2>
                 
                 
               </div>
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminwall2.jpg)">
+          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminwall3.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 style="color:grey;" class="animate__animated animate__fadeInDown">All Data is safe and secure</h2>
+                <h2 style="color:grey;" class="animate__animated animate__fadeInDown">All Data is Safe and Secure</h2>
                 
                
               </div>
