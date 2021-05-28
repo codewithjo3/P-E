@@ -83,7 +83,7 @@ input {
 }
 
 .btn {
-    background: #F3A002 !important;
+    background: !important;
     border: none;
     border-radius: 30px
 }
