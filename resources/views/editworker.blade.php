@@ -109,7 +109,7 @@
   <br>
   <br>
 
-<section id="editworker" style="background-image: url(assets/img/intro-carousel/viewworker3.jpg)" >
+<section id="editworker" style="background-image: url(../assets/img/intro-carousel/viewworker3.jpg)" >
       <div class="container" data-aos="fade-up" >
 
         <header class="section-header">
