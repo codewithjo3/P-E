@@ -100,13 +100,16 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
     <br>
     <br>
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
         <header class="section-header wow fadeInUp">
           <h3 style="color:white;">Add Location</h3>
          
         </header>
         <br>
-    <br>
     
 
         <form action="/addlocation" method="post">
@@ -172,14 +175,12 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
           <h3>ADD CATEGORY</h3>
           
         </header>
-        <br>
-    <br>
     
 
         <form action="/addcategory" method="post">
 
 {{csrf_field()}}
-<table class="table table-borderless" style="width:300px; margin-left:350px;">
+<table class="table table-borderless" style="width:400px; margin-left:350px;">
  
  <tr>
      <td><input name="category" type="text" class="form-control"placeholder="category name"></td>
@@ -226,168 +227,7 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
 
   
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h3 class="section-title">Services</h3>
-        </header>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-      <div class=" col-lg-12">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <!-- <li data-filter=".filter-app">App</li>  -->
-            <li data-filter=".filter-card">Plumbing</li>
-            <li data-filter=".filter-web">Electric</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <figure>
-              <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-            </figure>
-
-            <div class="portfolio-info">
-              <h4><a href="/#signup">Book Now</a></h4>
-              <p>worworke</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <figure>
-              <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/web3.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Web 3"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-            </figure>
-
-            <div class="portfolio-info">
-              <h4><a href="/#signup">Book Now</a></h4>
-              <p>Ducts & Attics</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <figure>
-              <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/app2.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="App 2"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-            </figure>
-
-            <div class="portfolio-info">
-              <h4><a href="/#signup">Book Now</a></h4>
-              <p>Air Conditioning & Heating</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <figure>
-              <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/card2.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Card 2"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-            </figure>
-
-            <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">Book Now</a></h4>
-              <p>Water leakage</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <figure>
-              <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/web2.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Web 2"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-            </figure>
-
-            <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">Book Now</a></h4>
-              <p>Air Quality Testing</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <figure>
-              <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/app3.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="App 3"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-            </figure>
-
-            <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">App 3</a></h4>
-              <p>App</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <figure>
-              <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/card1.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Card 1"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-            </figure>
-
-            <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">Book Now</a></h4>
-              <p>Tapping services</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <figure>
-              <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/card3.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Card 3"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-            </figure>
-
-            <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">Book Now</a></h4>
-              <p>Water heater services</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <figure>
-              <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/web1.jpg" class="link-preview venobox" data-gall="portfolioGallery" title="Web 1"><i class="ion ion-eye"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-            </figure>
-
-            <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">Book Now</a></h4>
-              <p>CCTV Work</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    
+   
    
 
     <!-- ======= Testimonials Section ======= -->
