@@ -102,18 +102,33 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
     </section><!-- End About Us Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="addlocation">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="addlocation" style="background-image: url(assets/img/intro-carousel/viewloc.jpg)">
       <div class="container" data-aos="fade-up">
 
         <header class="section-header wow fadeInUp">
           <h3>Add Location</h3>
          
         </header>
+        <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
         <form action="/addlocation" method="post">
 
        {{csrf_field()}}
-<table class="table table-borderless">
+<table class="table table-borderless" style="width:400px; margin-left:300px;">
  
  <tr>
      <td><input name="location" type="text" class="form-control" placeholder="Add location"></td>
@@ -141,14 +156,24 @@ Discover why tens of thousands of Indains have trusted and counted on our knowle
     <br>
     <br>
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <section id="addcategory" >
+    <section id="addcategory" style="background-image: url(assets/img/intro-carousel/viewcat.jpg)" >
       <div class="container" data-aos="fade-up" >
 
         <header class="section-header">
           <h3>ADD CATEGORY</h3>
           
         </header>
+        <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
         <form action="/addcategory" method="post">
 

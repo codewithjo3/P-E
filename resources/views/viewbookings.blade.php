@@ -268,7 +268,8 @@ $(document).ready(function(){
 <br>
 <br>
 <br>
-
+<br>
+<br>
 
 
 <section id="bookings" style="background-image: url(assets/img/intro-carousel/viewbook.jpg)" >

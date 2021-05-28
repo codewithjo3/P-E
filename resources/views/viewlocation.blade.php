@@ -272,7 +272,7 @@ $(document).ready(function(){
 <br>
 
 
-<section id="location" style="background-image: url(assets/img/intro-carousel/viewloc.jpg)"  >
+<section id="location" style="background-image: url(assets/img/intro-carousel/viewloc2.jpg)"  >
 <div class="container-xl">
 
 <div class="section-header">

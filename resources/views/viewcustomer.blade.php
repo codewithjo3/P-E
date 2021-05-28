@@ -287,7 +287,7 @@ $(document).ready(function(){
            
             <table class="table-hover table" >
             <thead>
-                    <tr>
+                    <tr style="color:white;">
                         <th></th>
                         <th>Id</th>
                         <th>Name</th>	                   
@@ -299,11 +299,11 @@ $(document).ready(function(){
                 </thead>
                 <tbody>
                     
-                <tr>
+                <tr style="color:white;">
                         <td>@foreach($customerview as $customer)
-                    <tr>
+                    <tr style="color:white;">
                    
-                        <td>{{$customer->id}}</td>
+                        <td >{{$customer->id}}</td>
                         
                         <td>{{$customer->Customerid}}</td>
                         <td>{{$customer->Fname}}{{$customer->Lname}}</td>

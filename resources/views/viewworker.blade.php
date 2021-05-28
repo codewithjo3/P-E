@@ -272,7 +272,7 @@ $(document).ready(function(){
 <br>
 <br>
 <br>
-<section id="viewworker" style="background-image: url(assets/img/intro-carousel/viewworker2.jpg)">
+<section id="viewworker" style="background-image: url(assets/img/intro-carousel/viewworker.jpg)">
 <div class="container-xl">
 
 <div class="section-header">
