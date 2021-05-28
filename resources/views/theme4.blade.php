@@ -111,7 +111,7 @@
           <div class="carousel-item active" style="background-image: url(assets/img/intro-carousel/adminhome2.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Welcome Admin </h2>
+                <h2 style="color:grey;" class="animate__animated animate__fadeInDown">Welcome Admin </h2>
                 
                 
                 
@@ -122,7 +122,7 @@
           <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminhome3.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Deep Work Inside</h2>
+                <h2 style="color:grey;" class="animate__animated animate__fadeInDown">Highly confidential</h2>
                 
                 
               </div>
@@ -132,7 +132,7 @@
           <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminhome.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">We are professionals</h2>
+                <h2 style="color:grey;" class="animate__animated animate__fadeInDown">Deep Work Inside</h2>
                 
                
               </div>
@@ -142,7 +142,7 @@
           <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminwall.png)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">We guarantee 100% perfection</h2>
+                <h2 style="color:grey;" class="animate__animated animate__fadeInDown">Data is money</h2>
                 
                 
               </div>
@@ -152,7 +152,7 @@
           <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/adminwall2.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Your satisfaction is our happiness</h2>
+                <h2 style="color:grey;" class="animate__animated animate__fadeInDown">All Data is safe and secure</h2>
                 
                
               </div>
